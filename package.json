@@ -1,0 +1,27 @@
+{
+	"name": "GD",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.44.3",
+		"react-native-deprecated-custom-components": "^0.1.1",
+		"react-native-gifted-listview": "0.0.15",
+		"react-native-pull": "^2.0.2",
+		"react-native-tab-navigator": "^0.3.4",
+		"realm": "^1.11.1"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "3.0.2",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
